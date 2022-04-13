@@ -1,0 +1,447 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family:sans-serif;
+    display: block;
+    font-weight: bold;
+   
+}
+
+html{
+
+    font-size: 62.5%;
+}
+
+/* container styling */
+.container{
+    position: absolute;
+    width: 100%;
+    height: 42rem;
+    top: 8rem;
+    font-size: 4.2rem;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #0549a1;
+    
+}
+.backimg{
+       opacity: 0.4;
+      
+}
+.subcontainer1{
+    position: absolute;
+    top: 22rem;
+    left: 29%;
+    color: white;
+    font-size: 5rem;
+}
+
+.arrow {
+    border: solid white;
+    border-width:  0rem .4rem .4rem 0rem;
+    display: inline-block;
+    padding: .9rem;
+    border-radius: .3rem;
+    position: relative;
+    left: 47%;
+    
+        
+  }
+
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+ } 
+
+ 
+ /* container1 styling */
+ .container1{
+     display: flex;
+     position: relative;
+     top: 57rem;
+     justify-content: space-evenly;
+     width: 100%;
+  
+ }
+.item{
+    width: 50%;
+
+}
+ .item-1{
+    flex-direction: column;
+    font-weight: normal;
+    padding: 1.5rem 5rem;
+    text-align: justify;
+    line-height: 3rem;
+    margin: 0rem 2.1rem;
+    width: 95%;
+    
+ }
+ .item-2{
+    flex-direction: column;
+    font-weight: normal;
+    padding: 1.5rem 2rem;
+    line-height: 3rem;
+    width: 90%;
+    text-align: justify;
+    
+ }
+
+ .item-1 .p1,
+ .item-2 .p1,
+ .item-3 .p1, 
+ .item-4 .p1{ 
+font-size: 3.5rem;
+font-weight: bold;
+ }
+ .item-1 .p2,
+ .item-2 .p2,
+ .item-3 .p2, 
+ .item-4 .p2 {
+font-size: 1.7rem;
+font-weight: normal;
+ }
+
+ /* container3 styling */
+ .container3 {
+
+    position: relative;
+    top: 63rem;
+    font-size: 3.8rem;
+    text-align: center;
+    width: 100%;
+ }
+
+
+ /* container4 styling */
+
+ .container4{
+    display: flex;
+    position: relative;
+    top: 70rem;
+    width: 100%;
+ 
+    
+}
+
+.item-3{
+   flex-direction: column;
+   font-weight: normal;
+   padding: 1.5rem 6.8rem;
+    line-height: 3rem;
+     
+   
+}
+.item-4{
+   flex-direction: column;
+   font-weight: normal;
+   padding: 1.5rem 1rem;
+    line-height: 3rem;
+    width: 90%;
+    
+}
+
+
+ /* container5 styling */
+
+.container5{
+overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    top: 76rem;
+    background-color: #244da2;
+    text-align: center;
+    color: white; 
+    overflow: none;
+    
+}
+.item-5{
+    display: inline-block;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700;
+        padding: 0rem 8rem;
+        
+}
+.para5{
+    position: relative; 
+    top: 10rem;
+    right: 3.4rem;
+    margin-left: 4.3rem;
+    line-height: 5rem;
+    
+  }
+
+
+ /* container6 styling */
+.container6
+{
+    display: flex;
+    padding-left: 2rem;
+    position: relative;
+    top: 60rem;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.div1{
+    font-size: 4.5rem;
+    padding: 0rem 6rem;
+}
+
+/* Div1 spaces are un-even thats why new div11 has created*/
+.div11{
+    font-size: 4.5rem;
+    padding: 0rem 8rem;
+}
+.div2{
+    font-size: 2.5rem;
+    justify-items: center;
+    font-weight: normal;
+}
+
+/* container7 styling */
+
+.container7 {
+    position: relative;
+    top: 75rem;
+    display: flex;
+    /* border: 2px solid red;  */
+    padding: 0rem 7rem;
+    margin: auto 1rem;
+
+}
+.item-6{
+    width: 60%;
+}
+
+.paragraph{
+
+    margin-bottom: 3.5rem;
+    font-weight: normal;
+    font-size: 1.8rem;
+    text-align: justify;
+    width: 95%;
+}
+
+ .itmhd{ 
+    font-size: 4rem;
+    font-weight: 40rem;
+    margin-bottom: 3.5rem;
+} 
+
+/* container8 styling */
+
+.container8{
+
+    /* border: 2px solid red; */
+    position: relative;
+    top: 80rem;
+    text-align: center;
+}
+.item-7{
+font-weight: normal;
+margin-bottom: 2.4rem;
+}
+
+.item-7 .paragraph1{
+
+    font-size: 1.6rem;
+}
+.itmhd1{
+    color: #244DA2;
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+
+/* container9 styling */
+
+.container9{
+    width: 40%;
+    height: 59.9rem;
+    position: absolute;
+    right: 5rem;
+    top: 280rem;
+    box-shadow: 1px 0px 68px 1px grey;
+    display:flex;
+    flex-direction: column;
+}
+
+/* form styling */
+
+.item-8 form{
+
+    padding: 0rem 2rem;
+    box-sizing: border-box;
+}
+ form .txt_field{
+
+position: relative;    
+border-bottom: .2rem solid #adadad;
+margin: 3rem 0rem;
+
+ }
+ .txt_field input{
+     width: 100%;
+     padding: 0rem .5rem;
+     height: 4rem;
+     font-size: 1.6rem;
+     border: none;
+     background: none;
+     outline: none;
+     padding: 2rem 0rem;
+ }
+ .txt_field label{
+     position: absolute;
+     top: 50%;
+     color: #adadad;
+     left: .5rem;
+     transform: translateY(-50%);
+     font-size: 1.8rem;
+     pointer-events: none;
+     transition: .5s;
+     font-weight: normal;
+    
+ }
+ .txt_field span::before {
+content: '';
+position: absolute;
+top: 4rem;
+left: 0;
+width: 0%;
+height: .2rem;
+background: rgb(218, 67, 67);
+transition: .5s;
+ }
+
+ .txt_field input:focus ~  label,
+ .txt_field input:valid ~ label{
+  top: -5px;
+  color: rgb(218, 67, 67) ;
+ }
+
+ .txt_field input:focus ~  span::before,
+ .txt_field input:valid ~ span::before{
+  width: 100%;
+ }
+
+input[type="submit"] {
+
+width: 30%;
+height: 6rem;
+border-style: solid;
+border: none;
+border-radius: 3rem;
+background-color: #0549a1;
+color: white;
+font-size: 1.8rem;
+font-family: 600;
+cursor: pointer;
+outline: none;
+position: absolute;
+bottom: 4rem;
+ }
+
+.formcheckbox {
+    margin: 1.2rem;
+}
+
+.formpara{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #244DA2;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-size: 1.9rem;
+}
+
+input[type="checkbox"]{
+    width: 1.8rem; 
+    height: 1.8rem; 
+   border-color: #adadad;
+  }
+
+/* container10 styling */
+
+.container10{
+    position: relative;
+    top: 160rem;
+    width: 100%;
+    height: 35rem;
+    background-color:#224d85;            
+}
+
+.item-9{
+
+    width: 95%;
+    height: 35rem;
+    display: flex;
+    text-decoration: none;
+    /* border: 2px solid yellow;   */
+    line-height: 2.2rem;
+  text-align: left;
+  margin-left: 6rem;
+  
+    }
+
+.item-9cont{
+    /* border: .2rem solid green; */
+    width: 25%;
+ 
+}
+
+.para2 a, .para3 a, .para4 a{
+    padding-top: 1.2rem;
+    width: 80%;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 1.6rem;   
+    line-height: 3rem;     
+}
+.para2 a:hover,
+ .para3 a:hover,
+ .para4 a:hover {
+
+    color: rgb(101, 101, 253);
+    transition: .3s;
+}
+.para1 {
+       line-height: 2.3rem;
+       font-weight: normal;
+       padding-top: 1.8rem;
+       font-size: 1.6rem;
+       color: white;
+       width: 53%;
+}
+
+#head1, #head2, #head3, #head4{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.container11{
+    position: relative;
+    top: 161rem;
+    left: 6rem;
+    color: #1a1a11;
+    font-weight: normal;
+    font-size: 1.6rem;
+}

@@ -1,0 +1,751 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+   font-family:Arial, Helvetica, sans-serif; 
+}
+
+html{
+
+    font-size: 62.5%;
+}
+
+
+/* first content styling */
+#first{
+   position: relative;
+   top: 15rem;
+   width: 60%;
+   left: 7rem;
+   padding: 2rem 0rem;
+  
+}
+
+.firstpara{
+    
+    text-align: center;
+    font-size: 5rem ;
+   line-height: 6.1rem ;
+   width: 100%;
+   margin: auto;
+font-weight: bold;
+}
+
+
+.firstcont{
+ margin: 2rem  auto;
+ text-align: center;
+ font-size: 1.8rem; 
+ font-weight: bold;
+ width: 85%;
+ line-height: 3rem ;
+}
+ .firstbtn{
+     margin: .5rem ;
+    font-size: 1.5rem ;
+    padding: 1.8rem  3.4rem ;
+    border-radius: 4rem ;
+    background-color: #06489e;
+    color: white;
+    font-weight: 700;
+    border: solid;
+    cursor:pointer;
+ }
+
+#firstform{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+   right: 5rem;
+   top: 19rem;
+
+}
+
+.firstform input{
+
+    margin: 1rem;
+    width: 90%;
+    padding: 1.3rem  .5rem ;
+    border-radius: 2rem ;
+    border: .1rem  solid rgb(109, 108, 108);
+   
+    
+}
+
+.firstform input::placeholder{
+color: rgb(207, 206, 206);
+font-size: 1.5rem;
+border: none;
+
+}
+.firstform .form_message{
+    padding-bottom: 11rem;
+}
+
+.firstform button{
+
+   border-radius: 3rem;
+    padding: 1.5rem 2.5rem;
+    background-color: #06489e;
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-style: none;
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+
+
+/* second content styling */
+
+ #second{
+     /* border: 2px solid red; */
+     position: relative;
+     top: 30rem;
+     height: 73rem;
+     background-color:#224d85;
+     color: white;
+  padding: 2rem 0px;
+ }
+ .second{
+     text-align: center;
+     font-size: 4rem;
+     font-weight: bold;
+ margin-top: 5rem;
+ }
+
+ .secondcont{
+     display: flex;
+     flex-wrap: wrap;
+     margin: 5rem 0rem;
+     justify-content: center;
+     /* border: 2px solid red; */
+}
+
+ #secondpara1,
+ #secondpara2,
+ #secondpara3,
+ #secondpara4,
+ #secondpara5,
+ #secondpara6 {
+     border: .2rem solid white;
+     width: 37rem;
+     height: 23rem;
+     border-radius: 1rem;
+     text-align: center;
+     padding:2rem ;
+     
+     margin: 1.5rem 3rem;
+     font-size: 1.8rem;
+ }
+ .second1,
+ .second2,
+ .second3,
+ .second4,
+ .second5,
+ .second6 {
+    padding: 1.5rem 0rem; 
+    cursor: pointer;
+ } 
+ .second1:hover,
+ .second2:hover,
+ .second3:hover,
+ .second4:hover,
+ .second5:hover,
+ .second6 :hover {
+    color: black;
+    transition: .4s
+    
+ } 
+
+ .sec1 ,
+ .sec2 ,
+ .sec3 ,
+ .sec4 ,
+ .sec5 ,
+ .sec6 { 
+ font-weight: bold;
+ font-size: 2rem;
+ }
+   
+ 
+ /* third content styling */
+ #third
+{
+    display: flex;
+    padding-left: 1rem;
+    position: relative;
+    top: 40rem;
+    justify-content: space-evenly;
+    
+}
+
+.third1{
+    font-size: 5rem;
+    padding: 0rem 4.7rem;
+    color: #277cea;
+    font-weight: bold;
+}
+
+/* Div1 spaces are un-even thats why new div11 has created*/
+
+.third11{
+    font-size: 4.5rem;
+    padding: 0rem 7rem;
+    color: #277cea;
+    font-weight: bold;
+    padding: .2rem 7rem;
+}
+.third2{
+    font-size: 2rem;
+    justify-items: center;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+/* fourth  content styling */
+#fourth{
+
+    /* border: 2px solid red; */
+    position: relative;
+    top: 50rem;
+    height: 73rem;
+    background-color:#224d85;
+    color: white;
+ padding: 2rem 0rem;
+
+}
+
+.fourth{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+margin-top: 5rem;
+}
+
+.fourthcont{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0rem;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+#fourthpara1,
+#fourthpara2,
+#fourthpara3,
+#fourthpara4,
+#fourthpara5,
+#fourthpara6 {
+    border: .2rem solid white;
+    width: 37rem;
+    height: 23rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem ;
+    
+    margin: 1.5rem 3rem;
+    font-size: 1.8rem;
+}
+.fourth1,
+.fourth2,
+.fourth3,
+.fourth4,
+.fourth5,
+.fourth6 {
+   padding: 1.5rem 0rem; 
+} 
+
+.four1 ,
+.four2 ,
+.four3 ,
+.four4 ,
+.four5 ,
+.four6 { 
+font-weight: bold;
+font-size: 2rem;
+}
+
+
+/* fifth content styling */
+#fifth{
+    position: relative;
+    top: 60rem;
+    
+}
+.fifth{
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+/* sixth content styling */
+#sixth{
+    position: absolute;
+    top: 268rem;
+    width: 40%;
+    right: 12rem;
+       
+}
+.sixth{
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+    text-align: justify;
+}
+
+
+/* seventh content styling */
+#silder{
+    /* position: absolute;
+    top: 275rem;
+    width: 40%;
+    left: 12rem; */
+   
+   overflow: hidden; 
+}
+.seventh{
+    /* font-size: 4rem;
+    color: black;
+    font-weight: 700;
+    text-align: justify; */
+}
+
+
+
+/* eighth content styling */
+#eighth{
+    position: absolute;
+    top: 295rem;
+    width: 40%;
+    right: 12rem;
+   
+}
+.eighth{
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+    text-align: justify;
+}
+
+
+/* nineth content styling */
+#nineth{
+
+    /* border: 2px solid red; */
+    position: relative;
+    top: 115rem;
+    height: 60rem;
+    background-color:#224d85;
+    color: white;
+ padding: 2rem 0rem;
+
+}
+
+.nineth{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+margin-top: 5rem;
+}
+
+.ninethcont{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0rem;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+#ninethpara1,
+#ninethpara2,
+#ninethpara3
+ {
+    border: .2rem solid white;
+    width: 37rem;
+    height: 27rem;
+    text-align: center;
+    padding:2rem ;
+    margin: 1.5rem 3rem;
+    font-size: 1.8rem;
+    background-color: aliceblue;
+    color: black;
+}
+.nineth1,
+.nineth2,
+.nineth3
+ {
+   padding: 1.5rem 1.5rem; 
+} 
+
+.nine1 ,
+.nine2 ,
+.nine3 {
+font-weight: bold;
+font-size: 2rem;
+}
+
+.nineth1 button{
+  margin-top: -1.2rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  border-radius: 4rem;
+  border-style: none;
+  background-color: #083f86;
+  color: white;
+  font-weight: 740;
+  cursor: pointer;
+}
+.nineth2 button{
+  margin-top: -.5rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  border-radius: 4rem;
+  border-style: none;
+  background-color: #07397a;
+  color: white;
+  font-weight: 740;
+  cursor: pointer;
+}
+
+
+/* tenthcontent content styling */
+#tenth{
+
+ position: relative;
+ height: 90rem;
+ top: 120rem;
+justify-content: center;
+
+}
+
+.tenthp{
+
+    text-align: center;
+    padding: 2rem;
+ 
+   font-size: 3.5rem;
+   font-weight: bold;
+}
+
+.tenthcont{
+   
+    height: 69rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tenth1,
+.tenth3,
+.tenth2 {
+border: .1rem solid gainsboro;
+width: 28%;
+height: 93%;
+
+}
+
+.tenth1:hover,
+.tenth3:hover,
+.tenth2:hover {
+    box-shadow: 0rem 0rem 1.5rem .1rem #a09e9e;
+transition: .3s
+}
+
+
+.tenp1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 3rem 4rem;
+    cursor: pointer;
+}
+.tenp1:hover{
+ 
+    color: #277cea;
+}
+.tenp2{
+    font-size: 1.8rem;
+    padding: 3rem 4rem;
+    
+    }
+
+.tenthbtn button{
+
+    padding: 1.4rem 2.5rem;
+    font-weight: 550;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: #ebe8e8;
+    cursor: pointer;
+}
+
+.tenthbtn button:hover
+{ 
+background-color: rgb(197, 195, 195);
+transition: .3s;
+
+}
+
+.tenthbtn{
+    margin: auto 4rem;
+}
+ .tenthbtn1{
+text-align: center;
+
+   
+}
+.tenthbtn1 button{
+    margin-top: -2.5rem;
+        font-size: 1.5rem;
+        padding: 1.5rem 3rem;
+        border-radius: 4rem;
+        border-style: none;
+      background-color: #07397a;
+      color: white;
+      font-weight: 740;
+      cursor: pointer;
+    }
+
+ /* eleventh content styling */
+
+    .eleventhp{
+       
+    position: relative;
+    top: 125rem;
+    padding: 0rem 5.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    }
+
+
+
+     /* form content styling */ 
+    #twelve{
+        width: 46%;
+        height: 70rem;
+        position: absolute;
+        right: 5rem;
+        top: 492rem;
+        box-shadow: .1rem 0rem 2.8rem .1rem grey;
+        display:flex;
+        flex-direction: column;
+    }
+       
+    .twelve form{
+    
+        padding: 0rem 4rem;
+        box-sizing: border-box;
+       
+    }
+
+     form .txt_field{
+    
+    position: relative; 
+    height: 4.2rem;
+    border-bottom: .2rem solid #adadad;
+    margin: 3rem 0rem 7rem;
+    
+     }
+     .txt_field input{
+         width: 100%;
+         padding: 0rem .5rem;
+         height: 4rem;
+         font-size: 1.6rem;
+         border: none;
+         background: none;
+         outline: none;
+         padding: 2rem 0rem;
+     }
+     .txt_field label{
+         position: absolute;
+         top: 45%;
+         color: #adadad;
+         left: .5rem;
+         transform: translateY(-50%);
+         font-size: 1.8rem;
+         pointer-events: none;
+         transition: .5s;
+         font-weight: normal;
+        
+     }
+     .txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 0%;
+    height: .2rem;
+    background: rgb(218, 67, 67);
+    transition: .5s;
+    
+     }
+    
+     .txt_field input:focus ~  label,
+     .txt_field input:valid ~ label{
+      top: -.5rem;
+      color: rgb(218, 67, 67) ;
+     }
+    
+     .txt_field input:focus ~  span::before,
+     .txt_field input:valid ~ span::before{
+      width: 100%;
+     }
+    
+    input[type="submit"] {
+    
+    width: 20%;
+    height: 6rem;
+    border-style: solid;
+    border: none;
+    border-radius: 3rem;
+    background-color: #0549a1;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 600;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: 5rem;
+     }
+    
+    .formcheckbox {
+        margin: 1.2rem;
+    }
+    
+    .formpara{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        color: #244DA2;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    .checkbox {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.8rem;
+        
+    }
+
+    input[type="checkbox"]{
+        width: 1.8rem; 
+        height: 1.8rem; 
+        cursor: pointer;
+      }
+
+
+      /* fourteen content styling */
+      
+      .fourteen{
+          position: relative;
+          top: 257rem;
+          left: 6rem;
+          color: #1a1a11;
+          font-weight: normal;
+          font-size: 1.8rem;
+        }
+        
+        #fifteen{
+            position: absolute;
+            left: .5rem;
+            top: 491rem;
+            height: 130%;
+            width: 45%;
+        }
+        .fifteen
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 95%;
+            margin-top: 3rem;
+            
+        }
+        
+        .fifcont{
+            
+            padding: 1rem 13rem .7rem 7rem;
+            font-weight: bold;
+            width: 10%;
+            color: rgb(31, 30, 30);
+            font-size: 1.4rem;
+            
+        }
+        
+        .fifteenp{
+            
+            font-size: 3.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+
+        /* footer styling */
+            footer{
+                width: 100%;
+            }
+          #thirteen{
+              margin-top: 4rem;
+              width: 222%;
+              height: 35rem;
+              background-color:#224d85;            
+          }
+          
+          .thirteen{
+          
+              width: 95%;
+              height: 35rem;
+              display: flex;
+              text-decoration: none;
+                
+              line-height: 2.2rem;
+            text-align: left;
+            margin-left: 6rem;
+            
+              }
+        
+          .thirteencont{
+             
+              width: 25%;
+           
+          }
+            
+          .para2 a, .para3 a, .para4 a{
+              padding-top: 1.2rem;
+              width: 80%;
+              text-decoration: none;
+              color: #FFF;
+              font-weight: normal;
+              font-size: 1.6rem;   
+              line-height: 3rem;     
+          }
+          .para2 a:hover,
+           .para3 a:hover,
+           .para4 a:hover {
+        
+              color: rgb(101, 101, 253);
+              transition: .3s;
+          }
+          .para1 {
+                 line-height: 2.3rem;
+                 font-weight: normal;
+                 padding-top: 1.8rem;
+                 font-size: 1.6rem;
+                 color: white;
+                 width: 53%;
+          }
+          
+          #head1, #head2, #head3, #head4{
+              font-size: 2.5rem;
+              font-weight: bold;
+              color: white;
+              margin-top: 2rem;
+              margin-bottom: 1rem;
+        
+          }
